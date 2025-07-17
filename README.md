@@ -25,23 +25,25 @@ Traditional tools like chatbots or YouTube videos don’t help you practice with
 ## 🛠️ Tech Stack
 
 ### 🎧 Voice Layer
-- Vapi SDK
-- Whisper ASR (via Vapi)
+- **Vapi SDK** – Real-time audio streaming
+- **Whisper ASR** (via Vapi) – Speech-to-text transcription
 
 ### 🧠 AI Intelligence
-- OpenAI GPT-4
-- Google Gemini Pro (optional fallback)
-- Custom prompt chaining for interview logic
+- **OpenAI GPT-4** – Contextual interview & feedback generation
+- **Google Gemini Pro** – Alternate LLM fallback
+- **Custom Prompt Chaining** – Dynamic memory + scoring logic
 
-### 📱 Frontend
-- React Native (Expo)
-- NativeWind (Tailwind CSS for React Native)
+### 💻 Frontend
+- **Next.js** – React-based web app
+- **Tailwind CSS** – Modern styling with utility-first approach
+- **Shadcn/UI** – Accessible component library
+- **Framer Motion** – UI animations
 
 ### 🔙 Backend / Infra
-- Firebase Authentication
-- Firebase Firestore (database)
-- Firebase Functions (backend logic)
-- Firebase Storage (optional audio archiving)
+- **Firebase Authentication** – Secure login/session management
+- **Firebase Firestore** – Real-time database for transcripts and feedback
+- **Firebase Functions** – Serverless logic for API integration
+- **Firebase Storage** – Optional voice recording archive
 
 ---
 
